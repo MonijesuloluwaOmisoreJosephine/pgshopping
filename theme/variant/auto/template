@@ -1,0 +1,348 @@
+<?php
+/**
+* PageCarton Page Generator
+*
+* LICENSE
+*
+* @category PageCarton
+* @package /layout/pc_layout_shoppingproject/template
+* @generated Ayoola_Page_Editor_Layout
+* @copyright  Copyright (c) PageCarton. (http://www.PageCarton.com)
+* @license    http://www.PageCarton.com/license.txt
+* @version $Id: template.php	Monday 6th of December 2021 10:32:53 PM	lokiessnyx@gmail.com $ 
+*/
+//	Template Content ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<?php include_once( LAYOUT_PATH . DS . 'htmlHeader' . TPL ) ?>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---Owl carousel--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<!---font awesome--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<!---font awesome--><link rel="stylesheet" href="<?php echo Ayoola_Application::getUrlPrefix(); ?>/layout/pc_layout_shoppingproject/style.css">
+</head>
+<body data-pc-section-name="body">
+<?php include_once( LAYOUT_PATH . DS . 'header' . TPL ) ?>
+    <!----Header Section Start---->
+    
+<?php
+//pc_body_1 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_1 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+echo ( ! empty( $_27f1d926a9cfb112665a44da7de4e465 ) &&  is_object( $_27f1d926a9cfb112665a44da7de4e465 ) ? Ayoola_Object_Wrapper_Abstract::wrap( $_27f1d926a9cfb112665a44da7de4e465->view(), '' ) : null );
+
+//pc_body_1 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_1@@@
+
+
+<?php
+//oneness /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_oneness as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//oneness /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@oneness@@@<section data-pc-all-sections="1" class="container">	
+									<div class="">
+										<div class="row">
+											<div class="pc_page_layout_grid col-md-12 12u">
+												<?php
+//middlebar /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_middlebar as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//middlebar /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@middlebar@@@
+										   </div>
+										</div> 
+										<div class="row">
+											<div class="pc_page_layout_grid col-sm-6 6u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//twosome1 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_twosome1 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//twosome1 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@twosome1@@@
+											</div>
+											<div class="pc_page_layout_grid col-sm-6 6u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//twosome2 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_twosome2 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//twosome2 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@twosome2@@@
+											</div> 
+										</div> 
+										<div class="row">
+											<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)"> 
+												<?php
+//threesome1 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_threesome1 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//threesome1 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@threesome1@@@
+										   </div>
+											<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//threesome2 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_threesome2 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//threesome2 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@threesome2@@@
+											</div> 
+											<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//threesome3 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_threesome3 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//threesome3 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@threesome3@@@
+											</div> 
+										</div> 
+										<div class="row">
+											<div class="pc_page_layout_grid col-sm-3 3u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//foursome1 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_foursome1 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//foursome1 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@foursome1@@@
+										   </div>
+											<div class="pc_page_layout_grid col-sm-3 3u 6u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//foursome2 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_foursome2 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//foursome2 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@foursome2@@@
+											</div> 
+											<div class="pc_page_layout_grid col-sm-3 3u 6u(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//foursome3 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_foursome3 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//foursome3 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@foursome3@@@
+											</div> 
+											<div class="pc_page_layout_grid col-sm-3 3u 6u$(medium) 12u$(xsmall) 12u$(mobile)">    
+												<?php
+//foursome4 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_foursome4 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//foursome4 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@foursome4@@@
+											</div> 
+										</div> 
+										<div class="row">
+											<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//leftbar /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_leftbar as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//leftbar /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@leftbar@@@
+										   </div>
+											<div class="pc_page_layout_grid col-sm-8 8u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//leftbarright /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_leftbarright as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//leftbarright /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@leftbarright@@@
+											</div> 
+										</div> 
+										<div class="row">
+											<div class="pc_page_layout_grid col-sm-8 8u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//rightbarleft /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_rightbarleft as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//rightbarleft /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@rightbarleft@@@
+											</div> 
+											<div class="pc_page_layout_grid col-sm-4 4u 12u$(medium) 12u$(xsmall) 12u$(mobile)">
+												<?php
+//rightbar /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_rightbar as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//rightbar /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@rightbar@@@
+											</div>   
+										</div> 
+									</div> 
+								</section><?php
+//lastoneness /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_lastoneness as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//lastoneness /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@lastoneness@@@<!----Header Section Ends----><!--Home section start-->
+<?php
+//pc_body_2 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_2 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_2 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_2@@@
+
+
+<!--home section ends--><!--arrival section starts-->
+<?php
+//pc_body_3 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_3 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_3 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_3@@@
+
+
+<!--arrival section ends--><!--featured section starts-->
+<?php
+//pc_body_4 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_4 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_4 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_4@@@
+
+
+<!--featured section ends--><!--gallery section start-->
+<?php
+//pc_body_5 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_5 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_5 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_5@@@
+
+
+<!--gallery section ends--><!--deal section starts-->
+<?php
+//pc_body_6 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_6 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_6 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_6@@@
+
+
+<!--deals section ends--><!--newsletter section starts-->
+<?php
+//pc_body_7 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_7 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_7 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_7@@@
+
+
+<!--newsletter section ends--><!--footer section starts-->
+<?php
+//pc_body_8 /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_body_8 as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_body_8 /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_body_8@@@
+
+
+<!--footer section ends--><!----jQuery cdn link-----><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--owl carousel js file link--><script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script><!----Custom js file link-----><script src="<?php echo Ayoola_Application::getUrlPrefix(); ?>/layout/pc_layout_shoppingproject/main.js"></script><?php include_once( LAYOUT_PATH . DS . 'footerJs' . TPL ) ?><?php include_once( LAYOUT_PATH . DS . 'footer' . TPL ) ?>
+<?php
+//pc_section_after_js /layout/pc_layout_shoppingproject/template Begins Here
+
+                foreach( $_sitePageWidget_pc_section_after_js as $eachSitePageWidget )
+                {
+                    echo $eachSitePageWidget->view();
+                }
+                
+//pc_section_after_js /layout/pc_layout_shoppingproject/template Ends Here
+?>@@@pc_section_after_js@@@
+
+</body>
+</html>

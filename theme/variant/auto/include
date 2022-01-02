@@ -1,0 +1,317 @@
+<?php
+/**
+* PageCarton Page Generator
+*
+* LICENSE
+*
+* @category PageCarton
+* @package /layout/pc_layout_shoppingproject/template
+* @generated Ayoola_Page_Editor_Layout
+* @copyright  Copyright (c) PageCarton. (http://www.PageCarton.com)
+* @license    http://www.PageCarton.com/license.txt
+* @version $Id: template.php	Monday 6th of December 2021 10:32:53 PM	lokiessnyx@gmail.com $ 
+*/
+//	Page Include Content
+
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_1 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_1', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_1 = array();
+                }
+                
+							if( Ayoola_Loader::loadClass( 'Ayoola_Page_Editor_Text' ) )
+							{
+								
+$_27f1d926a9cfb112665a44da7de4e465 = new Ayoola_Page_Editor_Text( array (
+  '' => NULL,
+  'editable' => '
+<header><div class="header-1">
+            <a href="#" class="logo"> <i class="fas fa-shopping-bag">&nbsp;</i> Shopping</a>
+
+            <div class="form-container">
+                <form action="">
+                    <input type="search" placeholder="search products" id="search"><label for="search" class="fas fa-search"></label>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="header-2">
+            <div id="menu" class="fas fa-bars"></div>
+
+            <nav class="navbar" data-pc-menu-ignore="1"><ul>
+<li><a class="active" href="#home">home</a></li>
+                <li><a href="#arrival">arrival</a></li>
+                <li><a href="#featured">featured</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#deal">deal</a></li>
+                </ul></nav><div class="icons">
+                <a href="#" class="fas fa-heart">&nbsp;</a>
+                <a href="#" class="fas fa-shopping-cart">&nbsp;</a>
+                <a href="#" class="fas fa-user">&nbsp;</a>
+            </div>
+        </div>
+    </header>
+',
+  'includes' => 
+  array (
+  ),
+  'content' => '
+<header><div class="header-1">
+            <a href="#" class="logo"> <i class="fas fa-shopping-bag"i></i> Shopping</a>
+
+            <div class="form-container">
+                <form action="">
+                    <input type="search" placeholder="search products" id="search"><label for="search" class="fas fa-search"></label>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="header-2">
+            <div id="menu" class="fas fa-bars"></div>
+
+            <nav class="navbar" data-pc-menu-ignore="1"><ul>
+<li><a class="active" href="#home">home</a></li>
+                <li><a href="#arrival">arrival</a></li>
+                <li><a href="#featured">featured</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#deal">deal</a></li>
+                </ul></nav><div class="icons">
+                <a href="#" class="fas fa-heart">&nbsp;</a>
+                <a href="#" class="fas fa-shopping-cart">&nbsp;</a>
+                <a href="#" class="fas fa-user">&nbsp;</a>
+            </div>
+        </div>
+    </header>
+',
+  'pagewidget_id' => NULL,
+) );
+
+							}
+							else
+							{
+								
+$_27f1d926a9cfb112665a44da7de4e465 = null;
+
+							}
+							
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_oneness = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'oneness', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_oneness = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_middlebar = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'middlebar', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_middlebar = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_twosome1 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'twosome1', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_twosome1 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_twosome2 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'twosome2', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_twosome2 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_threesome1 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'threesome1', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_threesome1 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_threesome2 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'threesome2', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_threesome2 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_threesome3 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'threesome3', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_threesome3 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_foursome1 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'foursome1', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_foursome1 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_foursome2 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'foursome2', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_foursome2 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_foursome3 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'foursome3', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_foursome3 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_foursome4 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'foursome4', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_foursome4 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_leftbar = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'leftbar', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_leftbar = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_leftbarright = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'leftbarright', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_leftbarright = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_rightbarleft = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'rightbarleft', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_rightbarleft = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_rightbar = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'rightbar', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_rightbar = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_lastoneness = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'lastoneness', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_lastoneness = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_2 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_2', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_2 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_3 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_3', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_3 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_4 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_4', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_4 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_5 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_5', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_5 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_6 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_6', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_6 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_7 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_7', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_7 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_body_8 = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_body_8', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_body_8 = array();
+                }
+                
+                if( method_exists( 'Ayoola_Page_Editor_Layout', 'getSiteWideWidgets' ) )
+                {
+                    $_sitePageWidget_pc_section_after_js = Ayoola_Page_Editor_Layout::getSiteWideWidgets( 'pc_section_after_js', Ayoola_Application::getPresentUri() );
+                }
+                else
+                {
+                    $_sitePageWidget_pc_section_after_js = array();
+                }
+                
